@@ -1,0 +1,43 @@
+.aboutPodcasts {
+  background-color: #1d1d1d;
+
+  width: 100%;
+  height: 100%;
+  position: relative;
+  .aboutPodcasts_block {
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20%;
+  background-image: url("https://media.pitchfork.com/photos/5931d52731bcdd124292a9a4/master/w_658,h_520,c_limit/191183da.jpg");
+
+    // background-color: rgb(45, 86, 72);
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(0 0, 50% 0, 55% 100%, 0 100%);
+  }
+    .podcasts_info {
+      top: 0;
+      // background-color: #4b5d52;
+      position: absolute;
+      right: 0;
+      display: flex;
+      flex-direction: column;
+      text-align: start;
+      margin: 0 240px;
+      color: #fff;
+      padding: 80px 0;
+      .audio{
+        // background-color: aqua;÷
+        // margin-top: 16px;
+        width: 500px;
+        padding-bottom: 30px;
+        // padding: 10px 24px;
+     audio{
+      width: 80%;
+   
+     }
+      
+      }
+    }
+  
+}

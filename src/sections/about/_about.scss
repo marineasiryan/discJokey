@@ -1,0 +1,62 @@
+.about {
+  width: 100%;
+  height: 100%;
+  background-image: url("./src/assets/images/about_back.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 48%;
+  .about_us {
+    background-color: #1d1d1d;
+    // background-color: rgb(45, 86, 72);
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(45% 0, 100% 0, 100% 100%, 50% 100%);
+
+    // .swiper-slide{
+    //     width: 400px !important;
+    // }
+    .about_us-swiper {
+      // background-color: blueviolet;
+      height: 100%;
+      width: 55%;
+      position: absolute;
+      right: 0;
+      // left: 10px;
+      padding-top: 80px;
+      .swiper-pagination {
+        bottom: 60px !important;
+        display: flex;
+        margin: 0 180px;
+        // justify-content: center;
+        align-items: center;
+        span {
+          // color: #fff !important;
+          background-color: #fff !important;
+          opacity: 1 !important;
+          margin: 14px !important;
+        }
+
+        .swiper-pagination-bullet-active {
+          padding: 12px;
+          background-color: #0dff6d !important;
+        }
+      }
+    }
+  }
+
+  .aboutUs_block {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    // background-color: aqua;
+    width: 410px;
+    margin: 0 180px;
+    color: #fff;
+
+
+
+    .text_primary--white {
+      padding-bottom: 20px;
+    }
+  }
+}

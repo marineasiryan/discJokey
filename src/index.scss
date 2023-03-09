@@ -1,0 +1,16 @@
+
+@import "./pages/home";
+@import "./layouts/header/header";
+@import "./sections/hero/hero";
+@import "./sections/about/about";
+// @import "./assets/styles/components/info_slide";
+@import "./assets/styles/base/reset";
+@import "./assets/styles/base/typography";
+@import "./sections/podcasts/podcasts";
+@import "./components/podcastCard/podcastCard";
+@import "./sections/activity/activity";
+@import "./components/activityItem/activityItem";
+@import "./sections/weeklyChart/weeklyChart";
+@import "./sections/videoPodcasts/videoPodcasts";
+@import "./components/videoCard/videoCard";
+@import "./sections/audioPodcasts/audioPodcasts";

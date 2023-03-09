@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  // position: relative;
+    // background-color: red;
+    background: url("./src/assets/images/stripe_pattern.png"), url("./src/assets/images/home_background.jpeg");
+    background-repeat:  repeat, no-repeat;
+    background-attachment: fixed;
+     font-family: "Nunito", sans-serif;
+    //  center top fixed;
+    background-size: cover;
+}
+.container{
+  width: 70%;
+  // background-color: cadetblue;
+  // height: 80%;
+  margin: 0 auto;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}

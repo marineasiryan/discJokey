@@ -1,0 +1,31 @@
+.podcastCard{
+    width: 100%;
+    margin: 80px 0;
+    // height: 400px;
+    // background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    padding: 18px 15px 22px;
+    &:hover{
+        background-color: #fff;
+        .heading_secondary{
+            color: black;
+        }
+    }
+    .podcastCard_img{
+        width: 100%;
+        height: 440px;
+        background-color: bisque;
+        overflow: hidden;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+   
+}

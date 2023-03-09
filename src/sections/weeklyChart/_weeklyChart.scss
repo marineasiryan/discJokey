@@ -1,0 +1,37 @@
+.weekly_chart {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://cdn.shopify.com/s/files/1/0526/6731/8431/files/Shadow_live_1400x.jpg?v=1613237916");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20%;
+  .weekly_chart--block {
+    background-color: #1d1d1d;
+    // background-color: rgb(45, 86, 72);
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(0 0, 50% 0, 55% 100%, 0 100%);
+    .weekly_chart_info {
+      display: flex;
+      flex-direction: column;
+      text-align: start;
+      margin: 0 240px;
+      color: #fff;
+      padding: 80px 0;
+      .charts{
+        // background-color: aqua;
+        // margin-top: 16px;
+        width: 500px;
+        padding: 10px 24px;
+        p:last-child{
+            // background-color: aqua;
+            padding-left: 16px;
+        }
+        &:hover{
+            background-color: #0dff6d;
+            color: black;
+        }
+      }
+    }
+  }
+}
